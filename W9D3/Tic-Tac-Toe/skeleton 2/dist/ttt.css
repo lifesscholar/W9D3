@@ -1,0 +1,71 @@
+html, body, figure, figcaption, ul, li, h1 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  text-align: inherit;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  width: 480px;
+  border: 5px solid black;
+  padding: 0;
+  text-align: inherit;
+  margin: 0px auto;
+}
+
+.grid li {
+  display: flex;
+  height: 150px;
+  width: 150px;
+  border: 5px solid black;
+  font-size: 80px;
+  font-weight: bold;
+  justify-content: center;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+.unclicked:hover {
+  background-color: yellow;
+}
+
+body {
+  text-align: center;
+}
+
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin: 20px 0;
+}
+
+.ttt {
+  text-align: center;
+}
+
+.unclicked {
+  background-color: gray;
+}
+
+.x, .o {
+  background-color: white;
+}
+
+.game-over {
+  color: red;
+  background-color: white;
+}
+
+.winner {
+  color: white;
+  background-color: green;
+}
+
+/* 
+.x:hover, .o:hover {
+  background-color: white;
+} */
